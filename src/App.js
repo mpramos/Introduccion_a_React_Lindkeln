@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Dish />
-      <D.Flag /> {// aqui hacemos la referencia del *as D, donde ponemos la letra y a continuación un punto}
+      <D.Flag /> 
     </div>
     
   );
