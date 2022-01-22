@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import  Header  from './components/header';
+import  Dish  from './components/dish';
 
 function App() {
   return (
     <div className="App">
-     <p>Hola Mundo</p>
+      <Header />
+      <Dish />
     </div>
+    
   );
 }
 
