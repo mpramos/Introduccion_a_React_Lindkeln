@@ -5,18 +5,22 @@ class Flag extends Component {
         return (
             <div>
                 <h1>Bandera</h1>
+                <h2>Bandera</h2>
+
             </div>
         )
     }
 } 
 class Ingredient extends Component {
-    // usando codigo nativo de react
-    // h4 nombre de la etiqueta 
-    // {} si se tiene alguna propiedad para trabajar
-    // 'ingrediente' contenido de la etiqueta 
    render() {
-       return React.createElement('h4',{},'Ingredientes')
-   }
+       return (
+           <> 
+               <h1>Ingredient1</h1> 
+               <h1>Ingredient2</h1> 
+           </>
+
+       )
+      }
 } 
 
 class Dish extends Component {
