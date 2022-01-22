@@ -29,7 +29,8 @@ class Dish extends Component {
     render() {
         return (
             <div className="dish">
-                <h1>Platillo</h1>
+                <h1>{ this.props.name }</h1>
+                <h2>{this.props.qty}</h2>
                 <Ingredient />
                 <Button 
                 variant="contained" color="secondary">Secondary</Button>
