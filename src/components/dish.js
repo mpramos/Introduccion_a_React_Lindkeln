@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 class Flag extends Component {
     render() {
         return (
@@ -15,8 +14,8 @@ class Ingredient extends Component {
    render() {
        return (
            <> 
-               <h1>Ingredient1</h1> 
-               <h1>Ingredient2</h1> 
+               <h4>Ingredient1</h4> 
+               <h4>Ingredient2</h4> 
            </>
 
        )
